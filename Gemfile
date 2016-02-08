@@ -35,8 +35,11 @@ gem 'spring', group: :development
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Add conventions to API responses
+gem 'active_model_serializers'
+
 # Use debugger
-# gem 'debugger', group: [:development, :test]
+gem 'debugger', group: [:development, :test]
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
